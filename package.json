@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/campus-discounts/fastboot-bitbucket-downloader.git"
+    "url": "git+https://github.com/The-Don-Himself/fastboot-bitbucket-downloader.git"
   },
   "keywords": [
     "ember",
@@ -19,9 +19,9 @@
   "author": "Don Omondi <don.e.omondi@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/campus-discounts/fastboot-bitbucket-downloader/issues"
+    "url": "https://github.com/The-Don-Himself/fastboot-bitbucket-downloader/issues"
   },
-  "homepage": "https://github.com/campus-discounts/fastboot-bitbucket-downloader#readme",
+  "homepage": "https://github.com/The-Don-Himself/fastboot-bitbucket-downloader#readme",
   "dependencies": {
     "fs-promise": "latest",
     "request": "latest"
