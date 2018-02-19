@@ -39,8 +39,13 @@ class BitbucketDownloader {
   download() {
     let addon = this;
 
-    if (!addon.repo || !addon.token) {
-      addon.ui.writeError('no repo or token provided; not downloading app');
+    if (!addon.repo) {
+      addon.ui.writeError('no repo provided; not downloading app');
+      return Promise.reject(new AppNotFoundError());
+    }
+
+    if (!addon.username || !addon.password) {
+      addon.ui.writeError('no username or password provided; not downloading app');
       return Promise.reject(new AppNotFoundError());
     }
 
