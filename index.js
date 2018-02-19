@@ -72,7 +72,7 @@ class BitbucketDownloader {
     let password = addon.password;
 
     let options = {
-        method: 'HEAD',
+        method: 'GET', // Would prefer a Head request but they are not supported
         uri: fileUrl,
         auth: {
             user: username,
