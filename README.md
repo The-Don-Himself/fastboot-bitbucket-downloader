@@ -13,11 +13,11 @@ const FastBootAppServer = require('fastboot-app-server');
 const BitbucketDownloader  = require('fastboot-bitbucket-downloader');
 
 let downloader = new BitbucketDownloader({
-  url:      'https://bitbucket.com',        // Bitbucket host e.g self hosted, defaults to https://bitbucket.com
-  token:    '1_A23CtFvGnsgdqwLPYZ',         // your Bitbucket private token
+  url:      'https://api.bitbucket.com',    // Bitbucket API host, defaults to https://api.bitbucket.com
+  username: 'don_omondi',                   // your Bitbucket username
+  password: '123456789Password',            // your Bitbucket app password
   repo:     'my-app/ember.js',              // name of your repo
-  branch:   'master',                       // optional, defaults to 'master'
-  job:      'build',                        // optional, defaults to 'build'
+  filename: 'dist.zip',                     // The download filename in your repo's downloads section
   path:     'dist'                          // optional path of the `dist` directory, defaults to 'dist'
 });
 
