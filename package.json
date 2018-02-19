@@ -1,0 +1,29 @@
+{
+  "name": "fastboot-bitbucket-downloader",
+  "version": "1.0.0",
+  "description": "A FastBoot App Server downloader for Bitbucket pipeline builds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/campus-discounts/fastboot-bitbucket-downloader.git"
+  },
+  "keywords": [
+    "ember",
+    "fastboot",
+    "downloader",
+    "bitbucket"
+  ],
+  "author": "Don Omondi <don.e.omondi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/campus-discounts/fastboot-bitbucket-downloader/issues"
+  },
+  "homepage": "https://github.com/campus-discounts/fastboot-bitbucket-downloader#readme",
+  "dependencies": {
+    "fs-promise": "latest",
+    "request": "latest"
+  }
+}
